@@ -1,0 +1,3 @@
+!function($) {
+	/* Skripta */
+}(window.jQuery);

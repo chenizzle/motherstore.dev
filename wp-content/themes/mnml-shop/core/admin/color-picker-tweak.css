@@ -1,0 +1,93 @@
+/* a little tweak for color picker to fit the admin panel */
+
+.wp-picker-container{
+	margin: 0;
+	height: 21px;
+	padding: 0 1px;
+}
+.wp-picker-container .wp-color-result{
+	border: solid 1px #e4e4e4 !important;
+	border-bottom-color: #ccc !important;
+	box-shadow: 0px 1px 0 rgba(0,0,0,0.03);
+	border-radius: 1px;
+	box-shadow: inset 0 0px 1px rgba(0,0,0,0.2), 0 1px 0px rgba(0,0,0,0.05);
+	height: 19px;
+	margin: 0;
+	outline: 0 !important;
+	padding-left: 30px;
+}
+
+.wp-picker-container .wp-color-result:after{
+	border-radius: 0px;
+	border-left: solid 1px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	content: url('images/interface/eyedropper.png'); 
+	height: 100%;
+	padding: 0;
+}
+.wp-picker-container .wp-color-result.wp-picker-open{ 
+	top: 1px; 
+	border: solid 1px #ccc !important;
+}
+.wp-picker-container .wp-color-result.wp-picker-open:after{
+	background: #fff;
+	border-top: solid 1px #ddd;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,0.05);
+}
+
+.wp-picker-container .wp-picker-input-wrap{
+	position: absolute;
+	padding-left: 10px;
+	width: 166px;
+	z-index: 1;
+}
+.wp-picker-container .wp-picker-input-wrap .wp-color-picker{
+	height: 22px;
+	width: 99px;
+	padding: 2px;
+	margin-right: 0;
+}
+.wp-picker-container .wp-picker-default,
+.wp-picker-container .wp-picker-clear{
+	width: 60px;
+}
+
+.wp-picker-container .wp-picker-holder{
+	position: absolute;
+	z-index: 3;
+}
+
+.iris-picker-inner{
+	top: 6px !important;
+	left: 6px !important;
+}
+.iris-palette-container{
+	left: 6px !important;
+	bottom: 6px !important;
+}
+.iris-picker{
+	width: 230px !important;
+	height: 196px !important;
+}
+.iris-square{
+	margin-right: 7px !important;
+}
+.iris-slider{
+	margin-right: -5px !important;
+}
+
+
+/* font color picker */
+.font-option-wrapper .wp-picker-container{
+	position: absolute;
+}
+.font-option-wrapper .wp-picker-container .wp-color-result:after{	
+}
+
+
+
+.iris-picker .iris-square-value{
+	width: 0 !important;
+	height: 0 !important;
+}

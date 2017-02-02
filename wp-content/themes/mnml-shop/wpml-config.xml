@@ -1,0 +1,15 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">slider</custom-type>
+    </custom-types>  
+    <admin-texts>
+        <key name="mnml_theme_options">
+            <key name="site-logo-text" />
+            <key name="copyright-text" />
+            <key name="woo-shop-title" />
+            <key name="woo-shop-subtitle" /> 
+            <key name="subscribe-title" />
+            <key name="subscribe-subtitle" />
+        </key>
+    </admin-texts>    
+</wpml-config>
